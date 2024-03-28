@@ -1,0 +1,116 @@
+@font-face {
+    font-family: RobotoCustom;
+    src: url('./fonts/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: ValorantCustom;
+    src: url('./fonts/valorant/Valorant\ Font.ttf');
+}
+
+* {
+    font-family: ValorantCustom;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    background-color: black;
+}
+
+.valo-logo {
+    max-width: 100%;
+    max-height: 100%;
+    height: 40px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion-lista li {
+    display: inline;
+}
+
+.navegacion-lista {
+    list-style: none;
+}
+
+.navegacion-lista li a {
+    color: white;
+    line-height: 100px;
+    text-decoration: none;
+    font-size: 35px;
+    margin-right: 50px;
+}
+
+/*  Estilos de la imagen de Background */
+
+.valo-background img {
+    height: 100%;
+    width: 100%;
+}
+
+.valo-background h1 {
+    font-family: ValorantCustom;
+    position: absolute;
+    color: white;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    padding: 10px;
+    font-size: 100px;
+
+}
+
+.valo-background {
+    position: relative;
+}
+
+.valo-galery {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.valo-galery-item img{
+    height: 200px;
+    border-radius: 0px 0px 0px 15px;
+    box-shadow: 1px 1px 5px grey;
+    margin: 5px;
+}
+
+.lista-datos {
+    border: 1px solid grey;
+    box-shadow: 1px 1px 2px grey;
+    padding: 15px;
+    margin: 10px;
+}
+
+.datos-personales-image img{
+    width: 30%;
+    float: right;
+    border: 1px solid green;
+    padding: 15px;
+}
+
+.footer {
+    background-color: #444;
+}
+
+.footer ul li a {
+    color:white;
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer ul li {
+    text-align: center;
+    padding: 30px;
+}
