@@ -12,7 +12,9 @@
     font-family: ValorantCustom;
     padding: 0px;
     margin: 0px;
+
 }
+
 
 .header {
     background-color: black;
@@ -45,6 +47,11 @@
     text-decoration: none;
     font-size: 35px;
     margin-right: 50px;
+    transition: all 300ms;
+}
+
+.navegacion-lista li a:hover {
+    color: red;
 }
 
 /*  Estilos de la imagen de Background */
@@ -87,6 +94,7 @@
 
 .agentes-info h2{
     text-align: center;
+    color: red;
 
 }
 
@@ -104,6 +112,11 @@
 .agentes-imagen img{
     width: 700px;
     margin: 20px;
+    transition: all 300ms;
+}
+
+.agentes-imagen img:hover {
+    scale: 1.05;
 }
 
 .agentes-imagen img:nth-child(even){
@@ -114,6 +127,75 @@
     border-radius: 30px 0px 30px 0px;
 }
 
+/*Estilos seccion de mapas*/
+
+.contenedor-mapas{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.mapas-imagen {
+    width: 50%;
+
+}
+
+.mapas-imagen img{
+    width: 100%;
+    border-radius: 0px 30px 0px 30px;
+    margin-left: 20px;
+    transition: all 300ms;
+}
+
+.mapas-imagen img:hover {
+    scale: 1.05;
+}
+
+.mapas-info{
+    width: 50%;
+    align-content: center;
+}
+
+.mapas-info h2 {
+    text-align: center;
+    color: red;
+}
+.mapas-info p{
+    text-align: center;
+    font-family: RobotoCustom;
+    padding: 20px;
+    margin-left: 20px;
+    font-size:25px;
+}
+
+/*Estilo Seccion de ARMAS*/
+
+.contenedor-armas{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+}
+
+.contenedor-armas img{
+    height: 180px;
+    margin: 60px;
+    box-shadow: 1px 3px 5px black;
+    border-radius: 15px 0px 15px 0px;
+    transition: all 300ms;
+}
+
+.contenedor-armas img:hover {
+    scale: 1.5;
+}
+
+/*Estilos seccion galeria*/
 .valo-galery {
     width: 100%;
     display: flex;
@@ -127,6 +209,11 @@
     border-radius: 0px 0px 0px 15px;
     box-shadow: 1px 1px 5px grey;
     margin: 5px;
+    transition: all 300ms;
+}
+
+.valo-galery-item img:hover {
+    scale: 1.5;
 }
 
 .lista-datos {
@@ -178,6 +265,7 @@
 
 .footer {
     background-color: #444;
+    min-height: 100px;
 }
 
 .footer ul li a {
@@ -188,5 +276,13 @@
 
 .footer ul li {
     text-align: center;
-    padding: 30px;
+    padding: 20px;
+}
+
+.footer ul li a {
+    transition: all 300ms;
+}
+
+.footer ul li a:hover {
+    color: red;
 }

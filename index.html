@@ -4,33 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina Web</title>
+    <title>Evaluacion 1</title>
+    <link rel="icon" href="./img/patitofeo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-    <header class="header">
+    <!--Comienzo cabecera-->
+    <header class="header" id="inicio">
         <nav class="navegacion">
             <div class="left">
-                <a href="https://playvalorant.com/es-es/"><img src="./img/whitelogo.png" alt="" class="valo-logo"></a>
+                <a href="https://playvalorant.com/es-es/" target="_blank"><img src="./img/whitelogo.png" alt="" class="valo-logo"></a>
             </div>
             <ul class="navegacion-lista right">
-                <li class="navegacion-link"><a href="">Inicio</a></li>
-                <li class="navegacion-link"><a href="#galeria">Galeria</a></li>
+                <li class="navegacion-link"><a href="#inicio">Inicio</a></li>
                 <li class="navegacion-link"><a href="#agentes">Agentes</a></li>
-                <li class="navegacion-link"><a href="">Armas</a></li>
-                <li class="navegacion-link"><a href="">Mapas</a></li>
+                <li class="navegacion-link"><a href="#mapas">mapas</a></li>
+                <li class="navegacion-link"><a href="#armas">Armas</a></li>
+                <li class="navegacion-link"><a href="#galeria">Galeria</a></li>
             </ul>
         </nav>
     </header>
+    <!--Fin cabecera-->
+    <!--Comienzo seccion principal-->
     <main>
+        <!--Comienzo seccion Fondo-->
         <section class="valo-background">
             <img src="./img/background.jpg" alt="Fondo de valorant" title="Fondo de valorant">
             <h1>Valorant</h1>
         </section>
+        <!--Fin seccion principal-->
+        <!--Comienzo seccion agentes-->
         <section class="contenedor-agentes" id="agentes">
-            <section class="agentes-info" >
+            <section class="agentes-info">
                 <h2>Jett</h2>
                 <p>
                     Jett viene de Corea del Sur, y su estilo de lucha ágil y evasivo
@@ -54,7 +61,6 @@
                     y sembrar el caos y la paranoia mientras sus rivales se preguntan dónde atacará la próxima vez
                 </p>
             </section>
-            
         </section>
         <section class="contenedor-agentes">
             <section class="agentes-info">
@@ -69,6 +75,68 @@
             <section class="agentes-imagen">
                 <img src="img/fade.png" alt="">
             </section>
+        </section>
+        <!--Fin seccion principal-->
+        <section class="contenedor-mapas" id="mapas">
+            <section class="mapas-imagen">
+                <img src="img/sunset-img.jpg" alt="">
+            </section>
+            <section class="mapas-info">
+                <h2>
+                    Sunset
+                </h2>
+                <p>
+                    Un desastre sucedido en una instalación local de Kingdom amenaza con tragarse el vecindario entero.
+                    Haz una paradita en tu puesto de comida de confianza y después recorre la ciudad para luchar en este
+                    tradicional mapa de tres calles</p>
+            </section>
+        </section>
+        <section class="contenedor-mapas" id="mapas">
+
+            <section class="mapas-info">
+                <h2>
+                    Icebox
+                </h2>
+                <p>
+                    Vuestro próximo campo de batalla será una zona de excavación de Kingdom secreta y abandonada en
+                    territorio ártico.
+                    Las dos zonas para plantar la Spike están protegidas por capas de nieve y metal, y cubrir las
+                    distancias horizontales requerirá destreza.
+                    Recurrid a las tirolinas y pillad al enemigo por sorpresa</p>
+            </section>
+            <section class="mapas-imagen">
+                <img src="img/icebox-img.jpg" alt="">
+            </section>
+        </section>
+        <section class="contenedor-mapas" id="mapas">
+            <section class="mapas-imagen">
+                <img src="img/ascent-map.jpg" alt="">
+            </section>
+            <section class="mapas-info">
+                <h2>
+                    Ascent
+                </h2>
+                <p>
+                    Un patio abierto para pequeños combates de posicionamiento y desgaste divide las dos ubicaciones de
+                    Ascent.
+                    Cada una de ellas puede fortificarse con unas puertas a prueba de bombas. Tendréis que destruirlas o
+                    buscar otro camino.
+                    La cuestión es no ceder ni un centímetro</p>
+            </section>
+        </section>
+        <section class="contenedor-armas"id="armas">
+            <img src="img/vandal.jpg" alt="">
+            <img src="img/operator.jpg" alt="">
+            <img src="img/cuchillo.jpg" alt="">
+            <img src="img/ghost.jpg" alt="">
+            <img src="img/guardian.jpg" alt="">
+            <img src="img/clasicc.jpg" alt="">
+            <img src="img/sheriff.jpg" alt="">
+            <img src="img/phatom.jpg" alt="">
+
+            
+
+
         </section>
         <section class="valo-galery" id="galeria">
             <article class="valo-galery-item">
@@ -147,16 +215,32 @@
             </section>
         </section>
     </main>
+    <!--Fin seccion principal-->
     <footer class="footer">
         <ul>
-            <li><a href="">Valorant</a></li>
-            <li><a href="">Riot Games</a></li>
-            <li><a href="">Valorant Tracker</a></li>
-            <li><a href="">Valorant Plant</a></li>
-            <li><a href="">Strat GG Valorant</a></li>
+            <li><a href="https://playvalorant.com/es-es/" target="_blank">Valorant</a></li>
+            <li><a href="https://www.riotgames.com/es" target="_blank">Riot Games</a></li>
+            <li><a href="https://tracker.gg/valorant" target="_blank">Valorant Tracker</a></li>
+            <li><a href="https://valoplant.gg/es" target="_blank">Valorant Plant</a></li>
+            <li><a href="https://www-strats-gg.translate.goog/valorant?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=sc&_x_tr_hist=true" target="_blank">Strat GG Valorant</a></li>
+            <li><a href="#inicio">Hacia arriba</a></li>
         </ul>
     </footer>
     <script src="index.js"></script>
 </body>
 
 </html>
+
+<!--SUNSET
+Un desastre sucedido en una instalación local de Kingdom amenaza con tragarse el vecindario entero.
+Haz una paradita en tu puesto de comida de confianza y después recorre la ciudad para luchar en este tradicional mapa de tres calles.-->
+
+<!--ASCENT
+Un patio abierto para pequeños combates de posicionamiento y desgaste divide las dos ubicaciones de Ascent. 
+Cada una de ellas puede fortificarse con unas puertas a prueba de bombas. Tendréis que destruirlas o buscar otro camino. 
+La cuestión es no ceder ni un centímetro.-->
+
+<!--ICEBOX
+Vuestro próximo campo de batalla será una zona de excavación de Kingdom secreta y abandonada en territorio ártico. 
+Las dos zonas para plantar la Spike están protegidas por capas de nieve y metal, y cubrir las distancias horizontales requerirá destreza. 
+Recurrid a las tirolinas y pillad al enemigo por sorpresa.-->
