@@ -71,6 +71,49 @@
     position: relative;
 }
 
+/*Estilos seccion de agentes*/
+
+.contenedor-agentes{
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.angentes-info{
+    width: 50%;
+}
+
+.agentes-info h2{
+    text-align: center;
+
+}
+
+.agentes-info p{
+    font-family: RobotoCustom;
+    font-size:25px;
+    padding:10px;
+    text-align: center ;
+}
+
+.agentes-imagen{
+    width: 50%;
+}
+
+.agentes-imagen img{
+    width: 700px;
+    margin: 20px;
+}
+
+.agentes-imagen img:nth-child(even){
+    border-radius: 0px 30px 0px 30px;
+}
+
+.agentes-imagen img:nth-child(odd){
+    border-radius: 30px 0px 30px 0px;
+}
+
 .valo-galery {
     width: 100%;
     display: flex;
