@@ -195,6 +195,76 @@
     scale: 1.5;
 }
 
+
+/*Estelios de la NUEVA SECCION*/
+.contenedor-destacados{
+    display: flex;
+    margin-top: 150px;
+
+    
+}
+
+.imagen-proyecto img{
+    border-radius: 0px 30px 0px 30px;
+    margin-left: 25px;
+
+    
+}
+
+.contenedor-info-proyecto h2{
+    text-align: center;
+    font-family: RobotoCustom;
+    padding: 20px;
+    margin-left: 25px;
+    font-size:25px;
+}
+
+.contenedor-info-proyecto p {
+    text-align: center;
+    font-family: RobotoCustom;
+    padding: 20px;
+    margin-left: 20px;
+    font-size:25px;
+}
+
+
+
+/*Estilos valorant CHAMPIONS*/
+
+.contenedor-champions{
+}
+.contenedor-champions img{
+    display: block;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 800px;
+    border-radius: 0px 30px 0px 30px;
+    margin-left: auto;
+   
+}
+
+.titulo-champions{
+    margin-top: 
+
+}
+
+.contenedor-champions p{
+    text-align: center;
+    font-family: RobotoCustom;
+    padding: 20px;
+    margin-left: 10px;
+    font-size:25px;
+}
+
+.contenedor-champions h2{ 
+    margin-right: 30px;
+    margin-top: 30px;
+    padding: 20px;
+    font-family: RobotoCustom;
+    margin-left: 700px;
+    font-size:25px;
+}
+
 /*Estilos seccion galeria*/
 .valo-galery {
     width: 100%;
